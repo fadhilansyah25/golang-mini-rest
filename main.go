@@ -1,4 +1,3 @@
-//main.go
 package main
 
 import (
@@ -21,7 +20,7 @@ func main() {
 	Config.DB.AutoMigrate(&Models.User{})
 	r := Routes.SetupRouter()
 	//running
-	r.Run()
+	r.Run(":8080")
 }
 
 // Testing Conflict Git

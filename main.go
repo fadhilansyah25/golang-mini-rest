@@ -23,3 +23,8 @@ func main() {
 	//running
 	r.Run()
 }
+
+// Testing Conflict Git
+// Editing with branch feature 1
+// Editing with branch feature 2
+// Conflict Handle Git Branch

@@ -1,5 +1,6 @@
 #environment variable file
 .env
+tmp
 
 # Binaries for programs and plugins
 *.exe
